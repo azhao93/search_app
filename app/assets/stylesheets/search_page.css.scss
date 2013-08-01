@@ -1,3 +1,63 @@
 // Place all the styles related to the SearchPage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html {
+  overflow-y: scroll;
+}
+
+/* body */
+
+body {
+	padding-top: 60px;
+	padding-left: 60px;
+}
+
+.big {
+	font-size: 1.5em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.grey {
+	color: #666666;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.border {
+  border: 1px groove #ddd !important;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  -webkit-box-shadow:  0px 0px 0px 0px #000;
+          box-shadow:  0px 0px 0px 0px #000;
+}
+
+.legend {
+	font-family: '小塚ゴシックpro';
+	font-weight: bold;
+	font-size: 14pt;
+	font-color: #3F3F3F;
+	text-align:left;
+	width:inherit;
+	padding:0 10px;
+	border-bottom:none;
+}
+
+[class*="span"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
