@@ -8,7 +8,7 @@
   </head>  
   <body>  
 	<div class="big">取引一覧</div>
-    <hr>
+    <hr class="border">
 	<div class="grey">検索条件を入力して、必要な取引情報を検索してください。</div>
     <script src="http://code.jquery.com/jquery.js"></script>  
     <script src="js/bootstrap.min.js"></script> 
@@ -21,6 +21,11 @@
 					<div class="grey form-group">
 					<label for="IDSearch">日時検索</label>
 					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+					
 						
 						
 						  
@@ -34,7 +39,11 @@
 					<legend class="legend">取引ステータス検索</legend>
 					<div class="grey form-group">
 					<label for="IDSearch">日時検索</label>
-					<input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
 					<div>
 				</fieldset>
 				
@@ -44,21 +53,36 @@
 			<fieldset class="border">
 			<legend class="legend">取引日で検索</legend>
 			<div class="span3">
-				<div class="grey form-group">
+				<div class="grey">
 				<label for="IDSearch">日時検索</label>
-				<input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				
 				<div>
 			</div>
 			<div class="span3">
-				<div class="grey form-group">
+				<div class="grey">
 				<label for="IDSearch">取引開始日</label>
-				<input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				
 				<div>
 			</div>
 			<div class="span3">
-				<div class="grey form-group">
+				<div class="grey">
 				<label for="IDSearch">取引終了日</label>
-				<input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+				
 				<div>
 			</div>
 			</fieldset>
@@ -67,6 +91,35 @@
 			<button type="submit" class="btn btn-info">Search</button>
 		</div>
 	</form>
+	</div>
+	<hr class="border">
+	<div class="container">
+		<div class="page_marker">
+		<ul class="pagination">
+		  <li><a href="#">&laquo;</a></li>
+		  <li class="active blue"><a href="#">1</a></li>
+		  <li><a href="#">2</a></li>
+		  <li><a href="#">3</a></li>
+		  <li><a href="#">4</a></li>
+		  <li><a href="#">5</a></li>
+		  <li><a href="#">&raquo;</a></li>
+		</ul>
+		</div>
+		<div>
+			<table class="bordered-table">
+				<tr>
+					<td>No.</td>
+					<td>日時</td>
+					<td>カード種類</td>
+					<td>カード番号</td>
+					<td>取引ID</td>
+					<td>金額</td>
+					<td>ステータス</td>
+					<td>手数料</td>
+					<td>Net</td>
+				</tr>
+			</table>
+		</div>
 	</div>
   </body>  
 </html>  
